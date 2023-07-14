@@ -1,4 +1,4 @@
-#em edição
+# em edição
 # SBSeg2023
 Repositório com os documentos e códigos fontes submetidos ao Salão de Ferramentas do SBSeg 2023.
 
@@ -19,14 +19,6 @@ Repositório com os documentos e códigos fontes submetidos ao Salão de Ferrame
 #### **⚠️ Importante**: 
 
 ## **1️⃣ Forma** 
-
-
-
-## 2️⃣ **Forma** 
-
-
-
-## 3️⃣ **Forma**
 
 🏷️ Nota: 
 
