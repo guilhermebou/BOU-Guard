@@ -2,35 +2,34 @@ import requests
 from bs4 import BeautifulSoup
 url = 'https://api.openai.com/v1/chat/completions'
 model = 'gpt-3.5-turbo'
-token = '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'
 
-#Url dos site
+#SUA API-KEY
+token = 'API KEY'
+
+#URL DO SITE
 link = "URL"
 
 requisicao = requests.get(link)
 print(requisicao)
-#print(requisicao.text)
-
 
 soup = BeautifulSoup(requisicao.text, "html.parser")
-
-#org
-#print(link.prettify())
 
 tags = ['h1', 'h2', 'h3', 'h4', 'h5', 'p', 'strong', 'span']
 
 input = soup.find_all(tags)
 print (input)
-#.replace('\n', '')
 
 format = format(input)
+print(format)
 
 def gpt(format):
 
     prompt = [
-        {'role': 'user', 'content': 'identifique e enumere as expressões associadas a homofobia'},
-        {'role': 'user', 'content': 'identifique e enumere as expressões associadas ao racismo'},
-        {'role': 'user', 'content': 'identifique e enumere as expressões associadas ao machismo'},
+
+        #RETIRE O COMENTARIO DO CONTEXTO QUE ESTA LIGADO A URL MENCIONADA
+        #{'role': 'user', 'content': 'identifique e enumere as expressões associadas a homofobia'},
+        #{'role': 'user', 'content': 'identifique e enumere as expressões associadas ao racismo'},
+        #{'role': 'user', 'content': 'identifique e enumere as expressões associadas ao machismo'},
         {'role': 'user', 'content': format}
     ]
 
@@ -47,7 +46,6 @@ def gpt(format):
     for choice in data['choices']:
         reply = choice['message']['content']
         print(reply)
-
 
 output = gpt(format)
 print (output)
