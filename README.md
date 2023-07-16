@@ -6,12 +6,12 @@ Nesta pasta, encontra-se o código-fonte necessário para rodar a aplicação.
 
 👀 Observações: 
 
-   📍 Arquivo do código-fonte é “main.py”, esse que deve ser executado para a avaliação. 
+   📍 Arquivo código-fonte é “main.py”, esse que deve ser executado para a avaliação. 
 
-   📍 Os arquivos restantes “index.html”, “manifest.jason” e “script.js” são os arquivos referentes para a extensão mencionada no Tópico 6 do paper “Conclusão, Limitações e **Trabalhos Futuros**”. 
+   📍 Os arquivos restantes “index.html”, “manifest.json” e “script.js” são os arquivos referentes para a extensão mencionada no Tópico 6 do paper “Conclusão, Limitações e **Trabalhos Futuros**”. 
 
 ## **🏷️ Nota** 
-Nesta implementacao utilizamos o python em sua versao 3.10.4, a biblioteca python BeautifulSoup em sua versao 4.12.2 ela é utilizada para realizar a raspagem de dados (web scraping), tambem utlizado a a Interface de Programação de aplicação (API) GPT-3.5-Turbo para realizar a analise, identificação e listagem das expressões desejadas, por ultimo, utilizado a biblioteca Requests 2.31.0 para realizar a requisicao nos sites obtendo o "Hypertext Transfer Protocol(HTTP). O desenvolvimento foi realizado em uma máquina com sistema operacional de 64 bit- Windows 10 Home.
+Nesta implementacao utilizamos o python em sua versao 3.10.4, a biblioteca python BeautifulSoup em sua versão 4.12.2 ela é utilizada para realizar a raspagem de dados (web scraping), também utlizado a a Interface de Programação de Aplicação (API) GPT-3.5-Turbo para realizar a analise, identificação e listagem das expressões desejadas, por ultimo, utilizado a biblioteca Requests 2.31.0 para realizar a requisiçao nos sites obtendo o "Hypertext Transfer Protocol" (HTTP). O desenvolvimento foi realizado em uma máquina com sistema operacional de 64 bit- Windows 10 Home.
 
 ## **📝 Requisitos/Instalação ⚙️** 
 
