@@ -1,5 +1,5 @@
 # SBSeg2023
-Repositório com os documentos e códigos fontes submetidos ao Salão de Ferramentas do SBSeg 2023.
+Repositório com o código fonte submetido ao Salão de Ferramentas do SBSeg 2023.
 
 ## 📌 Overview
 Nesta pasta, encontram-se todo o código-fonte necessários para rodar a aplicação.
