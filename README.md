@@ -2,31 +2,33 @@
 Repositório com os documentos e códigos fontes submetidos ao Salão de Ferramentas do SBSeg 2023.
 
 ## 📌 Overview
-#### **📱 Ferramenta </a>**
-Nesta pasta, encontram-se todos os códigos-fontes necessários para rodar a aplicação.
-
-
-
+Nesta pasta, encontram-se todo o código-fonte necessários para rodar a aplicação.
 
 ## **🏷️ Nota** 
-Nesta implementacao utilizamos o python em sua versao 3.10.4, a biclioteca python BeautifulSoup em sua versao 4.12.2 ela é utilizada para realizar a raspagem de dados (web scraping), tambem utlizado a a Interface de Programação de aplicação (API) GPT-3.5-Turbo para realizar a analise, identificação e listagem das expressões desejadas. O desenvolvimento foi realizado em uma máquina com sistema operacional de 64 bit- Windows 10 Home.
+Nesta implementacao utilizamos o python em sua versao 3.10.4, a biblioteca python BeautifulSoup em sua versao 4.12.2 ela é utilizada para realizar a raspagem de dados (web scraping), tambem utlizado a a Interface de Programação de aplicação (API) GPT-3.5-Turbo para realizar a analise, identificação e listagem das expressões desejadas, por ultimo, utilizado a biblioteca Requests 2.31.0 para realizar a requisicao nos sites obtendo o "Hypertext Transfer Protocol(HTTP). O desenvolvimento foi realizado em uma máquina com sistema operacional de 64 bit- Windows 10 Home.
 
 ## **📝 Requisitos/Instalação ⚙️** 
 
 Python 3.10.4: Download no site oficial do Python.
 (https://www.python.org).
 
-Biblioteca Beautiful Soup 4.12.2: Para a instalação da biblioteca é necessario utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando:
+Biblioteca Beautiful Soup 4.12.2: Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
 
 ```python
 # pip install beautifulsoup4==4.12.2
 ```
 
-API GPT-3.5 Turbo: Para a API, é preciso obter as credenciais de API da OpenAI, realizando cadastro e emissao da chave de acesso "API-KEY"
+API GPT-3.5 Turbo: Para a API, é preciso obter as credenciais de API da OpenAI, realizando cadastro e emissão da chave de acesso "API-KEY" 
 (https://www.openai.com).
 
+Biblioteca Requests 2.31.0: Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
+
+```python
+# pip install requests==2.31.0
+``` 
+
 ## **🌐 Sites Avaliados**
- 👀 obervação: HyperLinks referenciados leva direto para a pagina avaliada 
+ 👀 observação: HyperLinks referenciados leva direto para a página avaliada. 
 
 | Machismo | Racismo | Homofobia |
 | -------- | ------- | --------- |
