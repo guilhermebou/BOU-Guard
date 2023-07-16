@@ -7,6 +7,7 @@ Nesta pasta, encontra-se o código-fonte necessário para rodar a aplicação.
 👀 Observações: 
 
 📍 arquivo do código-fonte é “main.py”, esse que deve ser executado para a avaliação. 
+
 📍 Os arquivos restantes “index.html”, “manifest.jason” e “script.js” são os arquivos referentes para a extensão mencionada no Tópico 6 do paper “Conclusão, Limitações e **Trabalhos Futuros**”. 
 
 ## **🏷️ Nota** 
