@@ -3,4 +3,5 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     var currentUrl = currentTab.url;
     var statusText = document.getElementById('current-url');
     statusText.innerHTML = currentUrl;
+    
 });
