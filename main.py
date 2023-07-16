@@ -1,18 +1,20 @@
 import requests
+
 from bs4 import BeautifulSoup
+
 url = 'https://api.openai.com/v1/chat/completions'
 model = 'gpt-3.5-turbo'
 
-#SUA API-KEY
+#API-KEY
 token = 'API KEY'
 
 #URL DO SITE
 link = "URL"
 
-requisicao = requests.get(link)
-print(requisicao)
+request = requests.get(link)
+print(request)
 
-soup = BeautifulSoup(requisicao.text, "html.parser")
+soup = BeautifulSoup(request.text, "html.parser")
 
 tags = ['h1', 'h2', 'h3', 'h4', 'h5', 'p', 'strong', 'span']
 
