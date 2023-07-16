@@ -1,8 +1,8 @@
 # SBSeg2023
-Repositório com o código fonte submetido ao Salão de Ferramentas do SBSeg 2023.
+Repositório com o código fonte submetido para XVII Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG).
 
 # 📌 Overview
-Nesta pasta, encontram-se todo o código-fonte necessários para rodar a aplicação.
+Nesta pasta, encontra-se todo o código-fonte necessário para rodar a aplicação.
 
 ## **🏷️ Nota** 
 Nesta implementacao utilizamos o python em sua versao 3.10.4, a biblioteca python BeautifulSoup em sua versao 4.12.2 ela é utilizada para realizar a raspagem de dados (web scraping), tambem utlizado a a Interface de Programação de aplicação (API) GPT-3.5-Turbo para realizar a analise, identificação e listagem das expressões desejadas, por ultimo, utilizado a biblioteca Requests 2.31.0 para realizar a requisicao nos sites obtendo o "Hypertext Transfer Protocol(HTTP). O desenvolvimento foi realizado em uma máquina com sistema operacional de 64 bit- Windows 10 Home.
@@ -14,7 +14,7 @@ Python 3.10.4: Download no site oficial do Python.
 
 Biblioteca Beautiful Soup 4.12.2: Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
 
-```python
+```terminal
 # pip install beautifulsoup4==4.12.2
 ```
 
@@ -23,9 +23,37 @@ API GPT-3.5 Turbo: Para a API, é preciso obter as credenciais de API da OpenAI,
 
 Biblioteca Requests 2.31.0: Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
 
+```terminal
+pip install requests==2.31.0
+```
+## ✔️ Já instalei! Como Testar?!
+Como ainda estamos nos referindo a uma aplicação em andamento, algumas variáveis, como por exemplo, "link" e "prompt", estão estáticas. Portanto, para rodar a aplicação corretamente, segue o passo a passo para realizar as devidas alterações no código-fonte.
+
+1️⃣ Adicionar sua respectiva API-KEY.
+
 ```python
-# pip install requests==2.31.0
-``` 
+# API-KEY
+token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+```
+
+2️⃣ Referencie de forma individual os links dos sites para que sejam avaliados.
+
+```python
+# URL DO SITE
+link = "https://www.SiteParaAvaliacao.com"
+```
+
+3️⃣ Referencie de forma individual o prompt com base na contextualização que deseja ser avaliada no site submetido na variável "link".
+
+```python
+prompt = [
+        #{'role': 'user', 'content': 'identifique e enumere as expressões associadas ao racismo'},
+        {'role': 'user', 'content': format}
+    ]
+```
+
+4️⃣ Agora só executar a aplicação! 🏁
+
 
 ## **🌐 Sites Avaliados**
  👀 observação: HyperLinks referenciados leva direto para a página avaliada. 
