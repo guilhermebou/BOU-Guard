@@ -3,29 +3,30 @@ Repositório com o código fonte submetido para XVII Workshop de Trabalhos de In
 
 # 📌 Overview
 Nesta pasta, encontra-se o código-fonte necessário para rodar a aplicação.
-        
-  👀 Observações: 
-        📍 arquivo do código-fonte é “main.py”, esse que deve ser executado para a avaliação. 
-        📍 Os arquivos restantes “index.html”, “manifest.jason” e “script.js” são os arquivos referentes para a extensão mencionada no Tópico 6 do paper “Conclusão, Limitações e **Trabalhos Futuros**”. 
+
+👀 Observações: 
+
+📍 arquivo do código-fonte é “main.py”, esse que deve ser executado para a avaliação. 
+📍 Os arquivos restantes “index.html”, “manifest.jason” e “script.js” são os arquivos referentes para a extensão mencionada no Tópico 6 do paper “Conclusão, Limitações e **Trabalhos Futuros**”. 
 
 ## **🏷️ Nota** 
 Nesta implementacao utilizamos o python em sua versao 3.10.4, a biblioteca python BeautifulSoup em sua versao 4.12.2 ela é utilizada para realizar a raspagem de dados (web scraping), tambem utlizado a a Interface de Programação de aplicação (API) GPT-3.5-Turbo para realizar a analise, identificação e listagem das expressões desejadas, por ultimo, utilizado a biblioteca Requests 2.31.0 para realizar a requisicao nos sites obtendo o "Hypertext Transfer Protocol(HTTP). O desenvolvimento foi realizado em uma máquina com sistema operacional de 64 bit- Windows 10 Home.
 
 ## **📝 Requisitos/Instalação ⚙️** 
 
-Python 3.10.4: Download no site oficial do Python.
+▶️ **Python 3.10.4:** Download no site oficial do Python
 (https://www.python.org).
 
-Biblioteca Beautiful Soup 4.12.2: Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
+▶️ **Biblioteca Beautiful Soup 4.12.2:** Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
 
 ```terminal
 pip install beautifulsoup4==4.12.2
 ```
 
-API GPT-3.5 Turbo: Para a API, é preciso obter as credenciais de API da OpenAI, realizando cadastro e emissão da chave de acesso "API-KEY" 
+▶️ **API GPT-3.5 Turbo:** Para a API, é preciso obter as credenciais de API da OpenAI, realizando cadastro e emissão da chave de acesso "API-KEY" 
 (https://www.openai.com).
 
-Biblioteca Requests 2.31.0: Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
+▶️ **Biblioteca Requests 2.31.0:** Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
 
 ```terminal
 pip install requests==2.31.0
@@ -33,21 +34,21 @@ pip install requests==2.31.0
 ## ✔️ Já instalei! Como Testar?!
 Como ainda estamos nos referindo a uma aplicação em andamento, algumas variáveis, como por exemplo, "link" e "prompt", estão estáticas. Portanto, para rodar a aplicação corretamente, segue o passo a passo para realizar as devidas alterações no código-fonte.
 
-1️⃣ Adicionar sua respectiva API-KEY.
+1️⃣ **Adicionar sua respectiva API-KEY.**
 
 ```python
 # API-KEY
-token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+token = 'XXXXXXXXXXXXXXXXXXXXXXX'
 ```
 
-2️⃣ Referencie de forma individual os links dos sites para que sejam avaliados.
+2️⃣ **Referencie de forma individual os links dos sites para que sejam avaliados.**
 
 ```python
 # URL DO SITE
 link = "https://www.SiteParaAvaliacao.com"
 ```
 
-3️⃣ Referencie de forma individual o prompt com base na contextualização que deseja ser avaliada no site submetido na variável "link".
+3️⃣ **Referencie de forma individual o prompt com base na contextualização que deseja ser avaliada no site submetido na variável "link".**
 
 ```python
 prompt = [
@@ -56,10 +57,10 @@ prompt = [
     ]
 ```
 
-4️⃣ Agora só executar a aplicação! 🏁
+4️⃣ **Agora só executar a aplicação!** 🏁
 
 ## **🌐 Sites Avaliados**
- 👀 Observação: HyperLinks referenciados leva direto para a página avaliada. 
+ 👀 **Observação:** HyperLinks referenciados leva direto para as páginas que foram avaliadas. 
 
 | Machismo | Racismo | Homofobia |
 | -------- | ------- | --------- |
