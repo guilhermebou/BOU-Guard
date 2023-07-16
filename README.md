@@ -2,7 +2,11 @@
 Repositório com o código fonte submetido para XVII Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG).
 
 # 📌 Overview
-Nesta pasta, encontra-se todo o código-fonte necessário para rodar a aplicação.
+Nesta pasta, encontra-se o código-fonte necessário para rodar a aplicação.
+        
+  👀 Observações: 
+        📍 arquivo do código-fonte é “main.py”, esse que deve ser executado para a avaliação. 
+        📍 Os arquivos restantes “index.html”, “manifest.jason” e “script.js” são os arquivos referentes para a extensão mencionada no Tópico 6 do paper “Conclusão, Limitações e **Trabalhos Futuros**”. 
 
 ## **🏷️ Nota** 
 Nesta implementacao utilizamos o python em sua versao 3.10.4, a biblioteca python BeautifulSoup em sua versao 4.12.2 ela é utilizada para realizar a raspagem de dados (web scraping), tambem utlizado a a Interface de Programação de aplicação (API) GPT-3.5-Turbo para realizar a analise, identificação e listagem das expressões desejadas, por ultimo, utilizado a biblioteca Requests 2.31.0 para realizar a requisicao nos sites obtendo o "Hypertext Transfer Protocol(HTTP). O desenvolvimento foi realizado em uma máquina com sistema operacional de 64 bit- Windows 10 Home.
@@ -15,7 +19,7 @@ Python 3.10.4: Download no site oficial do Python.
 Biblioteca Beautiful Soup 4.12.2: Para a instalação da biblioteca é necessário utilizar o gerenciador de pacotes 'pip'. Abra o terminal ou prompt de comando e execute o seguinte comando: 
 
 ```terminal
-# pip install beautifulsoup4==4.12.2
+pip install beautifulsoup4==4.12.2
 ```
 
 API GPT-3.5 Turbo: Para a API, é preciso obter as credenciais de API da OpenAI, realizando cadastro e emissão da chave de acesso "API-KEY" 
@@ -54,9 +58,8 @@ prompt = [
 
 4️⃣ Agora só executar a aplicação! 🏁
 
-
 ## **🌐 Sites Avaliados**
- 👀 observação: HyperLinks referenciados leva direto para a página avaliada. 
+ 👀 Observação: HyperLinks referenciados leva direto para a página avaliada. 
 
 | Machismo | Racismo | Homofobia |
 | -------- | ------- | --------- |
